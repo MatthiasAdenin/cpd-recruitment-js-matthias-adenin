@@ -35,15 +35,19 @@ npm  install
 To use the Animal Filter program, follow the steps below:
 
 1. Go in the directory your cloned your app
-2. If you want to use the test.js 
-```bash 
-  mocha test.js
-  ```
-3. If you want to use app.js count function 
+
+2. If you want to use app.js count function 
 ```bash 
   node app.js --count
   ```
-4. If you want to use app.js count function 
+3. If you want to use app.js count function 
 ```bash 
   node app.js --filter=ry
+  ```
+
+## How to Run Tests
+
+To run the tests type 
+```bash 
+  mocha test.js
   ```
